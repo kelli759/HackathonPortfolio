@@ -8,8 +8,8 @@
     <style>
         body { 
         font-family: 'Poppins', sans-serif;
-        background-color:rgb(26, 28, 28) ;
-         color: white; 
+        background-color:white ;
+         color: whitesmoke; 
         }
 
         header {
@@ -17,13 +17,14 @@
           padding: 40px; 
           text-align: center; 
           color: black;  
+          font-style: italic;
         }
 
         p {
              font-size: 1.2em;
          }
         section {
-            padding: 30px;
+            padding: 20px;
             margin: 30px auto;
             background: rgb(200, 234, 99);
             border-radius: 8px;
@@ -38,12 +39,16 @@
 <body>
     <header>
         <h1>KELTECH</h1>
+        <p id="typing-text"></p>
         <p>Innovator | Tech Enthusiast | Online Gamer </p>
     </header>
 
-    <section id="about">
+    <section id="about" class="animate on scroll">
+        <!-- Internal Image --> 
+        <img src="IMG_20240305_120528_1.jpg" alt="on duty" width="250" height="300">
+
         <h2>About Me</h2>
-        <p>hello!, my name is Kelvin Irungu. A Mechatronics technician by proffession and that makes me a robotics person. I'm passionate about home automation using arduino programming and industrial automation using PLC programming. My aim is  to be able to bring problem solving ideas that seem impossible to others to be possible. I'm creative thinker who loves solving problems through tech. My journey in tech is fueled by curiosity and the excitement of turning ideas into reality. I am a gamer and that helps increase my critical thinking and be able to get new ideas of how to approach a problem.</p>
+        <p>hello!, my name is Kelvin Irungu. A Mechatronics technician by proffession but some call it robotics enginnering. I'm passionate about home automation using arduino programming and industrial automation using PLC programming. My aim is  to be able to bring problem solving ideas that seem impossible to others to be possible. I'm creative thinker who loves solving problems through tech. My journey in tech is fueled by curiosity and the excitement of turning ideas into reality. I am a gamer and that helps increase my critical thinking and be able to get new ideas of how to approach a problem.</p>
     </section>
 
     <section id="skills">
@@ -69,6 +74,13 @@
            <li>Robotics - using skills gained in Mechatronics for industrialisation.</li>
            <li>Tech - learning the limitless potential of technology in shaping the future.</li>
         </ol>
+
+        
+        <!--Internal Video-->
+        <video width="420" height="340" controls>
+            <source src="VID_20230223_112904.mp4" type="video/mp4"><br>
+            Your browser does not support the video tag.
+        </video>
     </section>
 
     <section id="projects">
@@ -80,6 +92,12 @@
         </article>
     </section>
 
+    <section id="Mechatronic Systems">
+         <!--Internal Video-->
+            <video width="420" height="340" controls>
+                <source src="VID_20230223_113342.mp4" type="video/mp4"><br>
+                Your browser does not support the video tag.
+    </section>
     <section id="contact">
         <h2>Hit Me up</h2>
         <form action="mail to:imkelvin1236@gmail.com" method="post" enctype="text/plain">
@@ -89,7 +107,7 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required*><br>
             
-            <button type="send"> Send</button>
+            <button type="Submit"> Submit</button>
         </form>
     </section>
 </body>

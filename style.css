@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(26, 28, 28);
+    color: white;
+}
+header {
+    background-color: rgb(39, 211, 79);
+    padding: 40px;
+    text-align: center;
+    color: black;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 30px auto;
+    background: rgb(200, 234, 99);
+    border-radius: 8px;
+    color: black;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+ul, ol {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    font-weight: bold;
+    color: rgb(26, 28, 28);
+}
+
+#projects h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(39, 211, 79);
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
